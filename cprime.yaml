@@ -27,7 +27,7 @@ config_schema:
         mcp_strict_mode:
             type: boolean
             description: Enable strict JSON-RPC mode (logging to stderr)
-service_name: TargetProcessMCP
+server_name: TargetProcessMCP
 description: A tool server for Apptio Target Process
 license: MIT
 owner: Aaron Bockelie <aaronsb@gmail.com>
