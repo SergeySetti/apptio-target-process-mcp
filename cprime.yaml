@@ -34,8 +34,15 @@ owner: Aaron Bockelie <aaronsb@gmail.com>
 package: TargetProcessMCP
 command: npx
 args:
-    - -y
-    - .
+    - npm
+    - install
+    - '&&'
+    - npm
+    - run
+    - build
+    - '&&'
+    - node
+    - build/index.js
 env:
     - name: TP_DOMAIN
       value: config.tp_domain
